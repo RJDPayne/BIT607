@@ -1,0 +1,52 @@
+/*universal box sizing*/
+*{
+    box-sizing: border-box;
+}
+
+/*Header style*/
+.header
+{
+    /*background-color: black;*/
+    background-image: url("images/dish-food-cuisine.jpg");
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.5vw;
+    font-size: 3vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*top navigation bar style*/
+.topnav
+{
+    overflow: hidden;
+    background-color: black;
+    font-size: 2vw;
+}
+
+/*topnav links style*/
+.topnav a
+{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5vw 1vw;
+    text-decoration: none;
+}
+
+/*topnav links hover style*/
+.topnav a:hover
+{
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+/*footer style*/
+.footer
+{
+    text-align:center;
+    padding: 1vw;
+}
