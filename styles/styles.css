@@ -6,15 +6,22 @@
 /*Header style*/
 .header
 {
-    /*background-color: black;*/
-    background-image: url("images/dish-food-cuisine.jpg");
+    background-color: black;
+    background-image: url("../images/dish-food-cuisine.jpg");
     color: whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
     padding: 0.5vw;
     font-size: 3vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#selectedPage
+{
+    background-color: whitesmoke; 
+    color: black;
 }
 
 /*top navigation bar style*/
