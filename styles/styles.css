@@ -8,14 +8,26 @@
 {
     background-color: black;
     background-image: url("../images/dish-food-cuisine.jpg");
-    color: whitesmoke;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     text-align: center;
     padding: 0.5vw;
-    font-size: 3vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/*Heading Styles*/
+h1
+{
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    font-size: 3vw;
+}
+
+h2
+{
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    font-size: 1.5vw;
 }
 
 #currentPage
@@ -41,6 +53,7 @@
     text-align: center;
     padding: 1.5vw 1vw;
     text-decoration: none;
+    width: 20%;
 }
 
 /*topnav links hover style*/
@@ -50,10 +63,47 @@
     background-color: whitesmoke;
 }
 
+/*Row attributes*/
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+/*Column attributes*/
+.column
+{
+    float: left;
+    width:33.33%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    height:32vw;
+}
+
+/*Map styles*/
+.mapouter{position:relative;text-align:right;height:100%;width:100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+
+/*Small screen response*/
+@media screen and (max-width:800px)
+{
+    .column
+    {
+        width:100%;
+    }
+
+    .header
+    {
+        background-image: url("../images/dish-food-cuisine-mobile.jpg")
+    }
+}
 /*footer style*/
 .footer
 {
     text-align:center;
     padding: 1vw;
+    font-size: 1.2vw;
 }
+
