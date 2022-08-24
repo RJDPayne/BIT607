@@ -30,6 +30,17 @@ h2
     font-size: 1.5vw;
 }
 
+p
+{
+    /*TODO: define paragraph style*/
+}
+
+/*Body style*/
+body
+{
+    text-align: center;
+}
+/*Display which page is selected on menu bar*/
 #currentPage
 {
     background-color: whitesmoke; 
@@ -92,6 +103,7 @@ h2
     .column
     {
         width:100%;
+        height: 100vw;
     }
 
     .header
