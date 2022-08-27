@@ -1,7 +1,10 @@
-/*universal box sizing*/
+/*universal*/
 *{
     box-sizing: border-box;
+    color:whitesmoke;
 }
+
+
 
 /*Header style*/
 .header
@@ -18,21 +21,25 @@
 /*Heading Styles*/
 h1
 {
-    color: whitesmoke;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 h2
 {
-    color: whitesmoke;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
-    font-size: 1.5vw;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: none;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
+/*Paragraph style*/
 p
 {
-    /*TODO: define paragraph style*/
+ font-size: 1vw;
 }
 
 /*Body style*/
@@ -40,6 +47,7 @@ body
 {
     text-align: center;
 }
+
 /*Display which page is selected on menu bar*/
 #currentPage
 {
@@ -60,7 +68,6 @@ body
 {
     float: left;
     display: block;
-    color: whitesmoke;
     text-align: center;
     padding: 1.5vw 1vw;
     text-decoration: none;
@@ -72,6 +79,31 @@ body
 {
     color: black;
     background-color: whitesmoke;
+}
+
+/*Home Page Main setion*/
+.homePage
+{
+    background-color: black;
+    float: left;
+    width:100%;
+    overflow: hidden;
+    background-image: url("../images/pexels-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    height:100vh;
+}
+
+.homePage h2
+{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: none;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 /*Row attributes*/
@@ -90,7 +122,16 @@ body
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    height:32vw;
+    height:100vh;
+}
+
+/*footer style*/
+.footer
+{
+    text-align:center;
+    padding: 1vw;
+    font-size: 1.2vw;
+    background-color: #000;
 }
 
 /*Map styles*/
@@ -110,12 +151,19 @@ body
     {
         background-image: url("../images/dish-food-cuisine-mobile.jpg")
     }
+
+    .homePage
+    {
+        background-image: url("../images/pexels-pixabay-mobile1.jpg");
+        font-size: 1.5vh;
+    }
+
+    h1
+    {
+        font-size: 5vh;
+    }
 }
-/*footer style*/
-.footer
-{
-    text-align:center;
-    padding: 1vw;
-    font-size: 1.2vw;
-}
+
+
+
 
