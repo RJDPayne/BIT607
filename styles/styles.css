@@ -32,7 +32,6 @@ h2
     text-shadow: none;
     line-height: 1.5;
     display: inline-block;
-    vertical-align: middle;
 }
 
 h3
@@ -173,6 +172,7 @@ body
     h2
     {
         font-size:3vh;
+        vertical-align: -webkit-baseline-middle;
     }
 
     h3
