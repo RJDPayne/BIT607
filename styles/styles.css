@@ -86,18 +86,22 @@ body
     background-color: whitesmoke;
 }
 
-/*Home Page Main setion*/
+/*iframe styles*/
+iframe
+{
+    background-color:lightgrey;
+}
+
+/*Home Page Main section*/
 .homePage
 {
     background-color: black;
-    float: left;
     width:100%;
     overflow: hidden;
     background-image: url("../images/pexels-pixabay.jpg");
     background-repeat: no-repeat;
     background-position-y: top;
     background-position-x: center;
-    height:100vh;
 }
 
 .homePage h2
@@ -112,6 +116,10 @@ body
 }
 
 /*Row attributes*/
+.row
+{
+    background-color: black;
+}
 .row:after
 {
     content: "";
@@ -123,10 +131,8 @@ body
 .column
 {
     float: left;
-    width:33.33%;
+    width:50%;
     text-align: center;
-    min-height:100vh;
-    background-color: black;
     padding-left: 2%;
     padding-right: 2%;
 }
