@@ -40,7 +40,7 @@ h3
 }
 
 /*Paragraph style*/
-p, a
+p, a, li
 {
  font-size: 1vw;
  line-height: 1;
@@ -153,23 +153,33 @@ iframe
 /*Small screen response*/
 @media screen and (max-width:950px)
 {
+    /*single columns*/
     .column
     {
         width:100%;
-        height: fit-content;
     }
 
+    /*reduced image-size for header*/
     .header
     {
         background-image: url("../images/dish-food-cuisine-mobile.jpg")
     }
-
+    /*reduced background image for homepage background, respond to portrait orientation, change h2 font-size and padding for home page*/
     .homePage
     {
         background-image: url("../images/pexels-pixabay-mobile1.jpg");
-        font-size: 1.5vh;
+        height:100vh;
     }
 
+    .homePage h2
+    {
+        font-size: 3vh;
+        /*line-height: 400%;*/
+        padding-top: 20vh;
+        
+    }
+
+    /*headings font-size reponse*/
     h1
     {
         font-size: 5vh;
@@ -178,7 +188,6 @@ iframe
     h2
     {
         font-size:3vh;
-        vertical-align: -webkit-baseline-middle;
     }
 
     h3
@@ -186,7 +195,7 @@ iframe
         font-size: 2.5vh;
     }
 
-    p, a
+    p, a, li
     {
         font-size: 1.7vh;
     }
