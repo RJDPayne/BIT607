@@ -90,6 +90,8 @@ body
 iframe
 {
     background-color:lightgrey;
+    width:100%;
+    border: none;
 }
 
 /*Home Page Main section*/
