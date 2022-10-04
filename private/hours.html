@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haukai Restaurant Home</title>
+    <title>Haukai Restaurant Hours</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
-  <body class="body">
+  <body>
     <!--Header to be used across all website pages-->
     <header class="header">
       <h1>Haukai Restaurant</h1>
@@ -17,24 +17,23 @@
 
     <!--Navigation Pane-->
     <nav class="topnav">
-      <a href="home.html" id="currentPage">Home</a>
+      <a href="index.html">Home</a>
       <a href="contact.html">Contact</a>
       <a href="menu.html">Menu</a>
       <a href="reservations.html">Reservations</a>
-      <a href="private/hours.html">Hours</a>
+      <a href="hours.html" id="currentPage">Hours</a>
     </nav>
 
     <!--Page's main contnent-->
     <main>
       <div class="row">
-        <div class="homePage">
-          <!--<img src="images/pexels-pixabay.jpg" alt="Restaurant Image">-->
-          <h2>
-            Nau Mai Ki Haukai - Welcome to Haukai<br />
-            <br />Maori Kai in the heart of the Bay of Islands <br />
-            Immerse yourself in Te Ao Maori for a truly cultural experience<br />
-            <br />Ka kite wawe koe
-          </h2>
+        <div class="column">
+          <h2>See the shift register below:</h2>
+          <iframe
+            title="Shift calendar for staff"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=Pacific%2FAuckland&showTitle=0&showNav=1&showTabs=1&showCalendars=0&src=bm90Y2FlbnpAZ21haWwuY29t&color=%23039BE5"
+            height="600"
+          ></iframe>
         </div>
       </div>
     </main>
