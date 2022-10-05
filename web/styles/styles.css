@@ -137,6 +137,12 @@ iframe
     padding-right: 2%;
 }
 
+/*Table Header Format*/
+.tableHeader
+{
+    font-weight:bold;
+}
+
 /*footer style*/
 .footer
 {
