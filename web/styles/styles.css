@@ -1,212 +1,195 @@
 /*universal*/
-*{
-    box-sizing: border-box;
-    color:whitesmoke;
+* {
+  box-sizing: border-box;
+  color: whitesmoke;
 }
 
 /*Header style*/
-.header
-{
-    background-color: black;
-    background-image: url("../images/dish-food-cuisine.jpg");
-    text-align: center;
-    padding: 0.5vw;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.header {
+  background-color: black;
+  background-image: url("../images/dish-food-cuisine.jpg");
+  text-align: center;
+  padding: 0.5vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*Heading Styles*/
-h1
-{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
-    font-size: 5vw;
+h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 5vw;
 }
 
-h2
-{
-    font-size: 3vw;
-    text-align: center;
-    text-shadow: none;
-    line-height: 1.5;
-    display: inline-block;
+h2 {
+  font-size: 3vw;
+  text-align: center;
+  text-shadow: none;
+  line-height: 1.5;
+  display: inline-block;
 }
 
-h3
-{
-    font-size: 1.7vw;
+h3 {
+  font-size: 1.7vw;
 }
 
 /*Paragraph style*/
-p, a, li
-{
- font-size: 1vw;
- line-height: 1;
+p,
+a,
+li {
+  font-size: 1vw;
+  line-height: 1;
 }
 
 /*Body style*/
-body
-{
-    text-align: center;
+body {
+  text-align: center;
 }
 
 /*Display which page is selected on menu bar*/
-#currentPage
-{
-    background-color: whitesmoke; 
-    color: black;
+#currentPage {
+  background-color: whitesmoke;
+  color: black;
 }
 
 /*top navigation bar style*/
-.topnav
-{
-    overflow: hidden;
-    background-color: rgb(83, 4, 4);
-    font-size: 2vw;
+.topnav {
+  overflow: hidden;
+  background-color: rgb(83, 4, 4);
+  font-size: 2vw;
 }
 
 /*topnav links style*/
-.topnav a
-{
-    float: left;
-    display: block;
-    text-align: center;
-    font-size: 3vw;
-    padding: 1.5vw 1vw;
-    text-decoration: none;
-    width: 20%;
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: 3vw;
+  padding: 1.5vw 1vw;
+  text-decoration: none;
+  width: 20%;
 }
 
 /*topnav links hover style*/
-.topnav a:hover
-{
-    color: black;
-    background-color: whitesmoke;
+.topnav a:hover {
+  color: black;
+  background-color: whitesmoke;
 }
 
 /*iframe styles*/
-iframe
-{
-    background-color:lightgrey;
-    width:100%;
-    border: none;
+iframe {
+  background-color: lightgrey;
+  width: 100%;
+  border: none;
 }
 
 /*Home Page Main section*/
-.homePage
-{
-    background-color: black;
-    width:100%;
-    overflow: hidden;
-    background-image: url("../images/pexels-pixabay.jpg");
-    background-repeat: no-repeat;
-    background-position-y: top;
-    background-position-x: center;
+.homePage {
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../images/pexels-pixabay.jpg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
 }
 
-.homePage h2
-{
-    font-size: 3vw;
-    text-align: center;
-    font-family: Brush Script MT, cursive;
-    text-shadow: none;
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
+.homePage h2 {
+  font-size: 3vw;
+  text-align: center;
+  font-family: Brush Script MT, cursive;
+  text-shadow: none;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*Row attributes*/
-.row
-{
-    background-color: black;
+.row {
+  background-color: black;
 }
-.row:after
-{
-    content: "";
-    display: table;
-    clear: both;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*Column attributes*/
-.column
-{
-    float: left;
-    width:50%;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /*Table Header Format*/
-.tableHeader
-{
-    font-weight:bold;
+.tableHeader {
+  font-weight: bold;
 }
 
 /*footer style*/
-.footer
-{
-    text-align:center;
-    padding: 1vw;
-    font-size: 1.2vw;
-    background-color: rgb(83, 4, 4);
+.footer {
+  text-align: center;
+  padding: 1vw;
+  font-size: 1.2vw;
+  background-color: rgb(83, 4, 4);
 }
 
 /*Map styles*/
-.mapouter{position:relative;text-align:right;height:100%;width:100%;}
-.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
-
-/*Small screen response*/
-@media screen and (max-width:950px)
-{
-    /*single columns*/
-    .column
-    {
-        width:100%;
-    }
-
-    /*reduced image-size for header*/
-    .header
-    {
-        background-image: url("../images/dish-food-cuisine-mobile.jpg")
-    }
-    /*reduced background image for homepage background, respond to portrait orientation, change h2 font-size and padding for home page*/
-    .homePage
-    {
-        background-image: url("../images/pexels-pixabay-mobile1.jpg");
-        height:100vh;
-    }
-
-    .homePage h2
-    {
-        font-size: 3vh;
-        /*line-height: 400%;*/
-        padding-top: 20vh;
-        
-    }
-
-    /*headings font-size reponse*/
-    h1
-    {
-        font-size: 5vh;
-    }
-
-    h2
-    {
-        font-size:3vh;
-    }
-
-    h3
-    {
-        font-size: 2.5vh;
-    }
-
-    p, a, li
-    {
-        font-size: 1.7vh;
-    }
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
 }
 
+/*Small screen response*/
+@media screen and (max-width: 950px) {
+  /*single columns*/
+  .column {
+    width: 100%;
+  }
 
+  /*reduced image-size for header*/
+  .header {
+    background-image: url("../images/dish-food-cuisine-mobile.jpg");
+  }
+  /*reduced background image for homepage background, respond to portrait orientation, change h2 font-size and padding for home page*/
+  .homePage {
+    background-image: url("../images/pexels-pixabay-mobile1.jpg");
+    height: 100vh;
+  }
 
+  .homePage h2 {
+    font-size: 3vh;
+    /*line-height: 400%;*/
+    padding-top: 20vh;
+  }
 
+  /*headings font-size reponse*/
+  h1 {
+    font-size: 5vh;
+  }
+
+  h2 {
+    font-size: 3vh;
+  }
+
+  h3 {
+    font-size: 2.5vh;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 1.7vh;
+  }
+}
